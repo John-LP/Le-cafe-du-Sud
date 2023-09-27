@@ -37,15 +37,15 @@ body {
 
 .stockActuel {
     width: 100%;
-    height: 3vh;
+    height: 6vh;
     background-color: #FFF5E1;
     display: flex;
     justify-content: center;
 }
 
-.stock {
+.col-6 {
     width: 100%;
-    height: 84vh;
+    height: 81vh;
     background-color: #FFF5E1;
     display: flex;
     justify-content: center;
@@ -74,4 +74,31 @@ h3 {
 
 .inputModal{
     border: 1px solid black;
+    border:1px solid #4E5D4E;
+    border-radius: 30px;
+}
+
+.modal-body{
+    height: 100vh;
+    background-color: #4E5D4E;
+    color: white;
+}
+
+.col-md-7,
+.col-md-4,
+.col-md-3,
+.col-md-2,
+.ajoutStock {
+    display: flex!important;
+    flex-direction: column!important;
+}
+
+.boutonValider {
+    width: 20vh;
+    height: 6vh;
+    background-color: #4a2a0a;
+    color: white;
+    border:1px solid #4E5D4E;
+    border-radius: 30px;
+    font-size: 1.8rem;
 }

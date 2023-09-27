@@ -20,45 +20,65 @@
                 <button class="ajouter">+ Ajouter un produit</button>
             </div>
         </div>
+
         <div class="stockActuel"><h2 class="titre2">Stock Actuel</h2></div>
-        <div class="stock">
-            <div class="row">
-                <div class="col-6">
-                    <!-- <div classe="titreSoft"><h3>Soft</h3></div> -->
-                    <div class="soft">
-                        Softs <br>
-                        Softs <br>
-                        Softs <br>
-                        Softs <br>
-                        Softs <br>
-                        Softs <br>
-                        Softs <br>
-                        Softs <br>
-                        Softs <br>
-                        Softs <br>
-                        Softs <br>
-                        Softs <br>
-                        Softs <br>
+        <!-- <div class="stock"> -->
+        <div class="row">
+            <div class="col-6">
+                <div class="soft"></div>
+            </div>
+            <div class="col-6">
+                <div class="alcool"></div>
+            </div>
+        </div>
+        <!-- </div> -->
+
+        <div class="modal-body">
+            <div class="container-fluid">
+                <div class="row l1">
+                    <div class="col-md-7">Nom du produit
+                        <input class="inputModal nom" type="text" name="produit"
+                            placeholder="Nom du Produit">
                     </div>
-                </div>
-                <div class="col-6">
-                    <!-- <div class="titreAlcool"><h3>Boissons alcoolisées</h3></div> -->
-                    <div class="alcool">
-                        Boissons alcoolisées <br>
-                        Boissons alcoolisées <br>
-                        Boissons alcoolisées <br>
-                        Boissons alcoolisées <br>
-                        Boissons alcoolisées <br>
-                        Boissons alcoolisées <br>
-                        Boissons alcoolisées <br>
+                    <div class="col-md-3">Type
+                        <select class="type">
+                            <option value="soft">Soft</option>
+                            <option value="alcool">Boisson alcoolisée</option>
+                        </select>
+                    </div>
+                    <div class="col-md-2">Degrés d'alcool
+                        <input class="inputModal degres" type="number"
+                            name="degre"
+                            placeholder="Degrés d'alcool">
+                    </div>
+                    <div class="row l2">
+                        <div class="col-md-4">Prix d'achat HT
+                            <input class="inputModal achat" type="number"
+                                name="achat"
+                                placeholder="Prix d'achat HT">
+                        </div>
+                        <div class="col-md-4">Prix de vente HT
+                            <input class="inputModal vente" type="number"
+                                name="vente"
+                                placeholder="Prix de vente HT">
+                        </div>
+                        <div class="col-md-4 displayTVA"></div>
+                    </div>
+                    <div class="row l3">
+                        <div class="col-md-6">Stock
+                            <input class="inputModal ajoutStock" type="number"
+                                name="stock"
+                                placeholder="Stock">
+                        </div>
+                        <div class="col-md-6"><button class="boutonValider">Valider</button></div>
                     </div>
                 </div>
             </div>
-        </div>
-        <script src="script.js"></script>
-        <script
-            src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
-            integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
-            crossorigin="anonymous"></script>
-    </body>
-</html>
+
+            <script src="script.js"></script>
+            <script
+                src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+                integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+                crossorigin="anonymous"></script>
+        </body>
+    </html>
