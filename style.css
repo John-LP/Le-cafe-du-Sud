@@ -1,87 +1,91 @@
 body {
-    margin: 0px;
+  margin: 0px;
 }
+
 .bandeauHaut {
-    width: 100%;
-    height: 13vh;
-    background-color: #4E5D4E;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.ajouter {
-    height: 3vh;
-    background-color: #FFF5E1;
-    border: 1px solid #4E5D4E;
-    border-radius: 30px;
-    font-weight: bold;
-    font-size: 1.3rem;
-    padding: 30px;
-    align-items: center;
-    display: flex;
-} 
-
-.titre2 {
-    border: 2px solid #4a2a0a;
-    background-color: #4a2a0a;
-    height: 5vh;
-    width: 20vh;
-    margin-top: 1vh;
-    border-radius: 30px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: white;
+  width: 100%;
+  height: 13vh;
+  background-color: #4e5d4e;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .stockActuel {
-    width: 100%;
-    height: 6vh;
-    background-color: #FFF5E1;
-    display: flex;
-    justify-content: center;
+  width: 100%;
+  height: 10vh;
+  background-color: #fff5e1;
+  display: flex;
+  justify-content: center;
 }
 
 .col-6 {
-    width: 100%;
-    height: 81vh;
-    background-color: #FFF5E1;
-    display: flex;
-    justify-content: center;
+  width: 100%;
+  height: 77vh;
+  background-color: #fff5e1;
+  display: flex;
+  justify-content: center;
+  overflow: scroll;
+}
+
+.ajouter {
+  height: 3vh;
+  background-color: #fff5e1;
+  border: 1px solid #4e5d4e;
+  border-radius: 30px;
+  font-weight: bold;
+  font-size: 1.3rem;
+  padding: 30px;
+  align-items: center;
+  display: flex;
+}
+
+.titre2 {
+  border: 2px solid #4a2a0a;
+  background-color: #4a2a0a;
+  height: 5vh;
+  width: 20vh;
+  margin-top: 1vh;
+  border-radius: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
 }
 
 .titre1 {
-    font-size: 3.5rem;
-    color: white;
-    margin-left: 5vh;
+  font-size: 3.5rem;
+  color: white;
+  margin-left: 5vh;
 }
 
+.bordure {
+  border-right: 2px solid black;
+}
 .soft {
-    border-right: 2px solid black;
-    margin-top: 5vh!important;
-    font-size: 1.5rem!important;
+  margin-top: 5vh !important;
+  font-size: 1.5rem !important;
 }
 
 .alcool {
-    margin-top: 5vh!important;
-    font-size: 1.5rem!important;
+  margin-top: 5vh !important;
+  font-size: 1.5rem !important;
 }
 
 h3 {
-    margin-top: 7vh;
+  margin-top: 7vh;
 }
 
-.inputModal{
-    border: 1px solid black;
-    border:1px solid #4E5D4E;
-    border-radius: 30px;
+.inputModal {
+  border: 1px solid black;
+  border: 1px solid #4e5d4e;
+  border-radius: 30px;
 }
 
-.modal-body{
-    height: 100vh;
-    background-color: #4E5D4E;
-    color: white;
+.modal-body {
+  height: 100vh;
+  background-color: #4e5d4e;
+  color: white;
 }
 
 .col-md-7,
@@ -89,73 +93,90 @@ h3 {
 .col-md-3,
 .col-md-2,
 .ajoutStock {
-    display: flex!important;
-    flex-direction: column!important;
+  display: flex !important;
+  flex-direction: column !important;
 }
 
 .boutonValider {
-    width: 20vh;
-    height: 6vh;
-    background-color: #4a2a0a;
-    color: white;
-    border:1px solid #4E5D4E;
-    border-radius: 30px;
-    font-size: 1.8rem;
+  width: 20vh;
+  height: 6vh;
+  background-color: #4a2a0a;
+  color: white;
+  border: 1px solid #4e5d4e;
+  border-radius: 30px;
+  font-size: 1.8rem;
 }
 
-
 .modal-body {
-    height: 100vh;
-    background-color: #4E5D4E;
-    display: flex;
-    align-items: center;
+  height: 100vh;
+  background-color: #4e5d4e;
+  display: flex;
+  align-items: center;
 }
 
 .l1 {
-    padding: 10vh;
+  padding: 10vh;
 }
 
-.l2, .l3 {
-    padding-top: 5vh;
+.l2,
+.l3 {
+  padding-top: 5vh;
 }
 
 .l3 {
-    display: flex;
-    align-items: flex-end;
+  display: flex;
+  align-items: flex-end;
 }
 
-.col-md-7, .col-md-3, .col-md-2, .col-md-4, .col-md-6 {
-    display: flex;
-    flex-direction: column;
-    
+.col-md-7,
+.col-md-3,
+.col-md-2,
+.col-md-4,
+.col-md-6 {
+  display: flex;
+  flex-direction: column;
 }
 
 .col-md-6.ajoutStock {
-    margin-left: 30vh;
-    width: 25vh;   
+  margin-left: 30vh;
+  width: 25vh;
 }
 
 .inputModal {
-    height: 4vh;
-    border: solid 1px;
-    border-radius: 10px;
-    background-color: #FFF5E1;
+  height: 4vh;
+  border: solid 1px;
+  border-radius: 10px;
+  background-color: #fff5e1;
 }
 .type,
 .selectDeco {
-    height: 4vh;
-    border: solid 1px;
-    border-radius: 10px;
-    background-color: #FFF5E1;
+  height: 4vh;
+  border: solid 1px;
+  border-radius: 10px;
+  background-color: #fff5e1;
 }
 
 .boutonValider {
-    color: #FFF5E1;
-    margin-left: 15vh;
-    height: 4vh;
-    width: 20vh;
-    border: solid 1px #4a2a0a;
-    border-radius: 10px;
-    background-color: #4a2a0a;
-   
+  color: #fff5e1;
+  margin-left: 15vh;
+  height: 4vh;
+  width: 20vh;
+  border: solid 1px #4a2a0a;
+  border-radius: 10px;
+  background-color: #4a2a0a;
+}
+
+.row {
+  margin: 0px !important;
+}
+
+.liste {
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+  gap: 50px;
+}
+
+.nomProduit {
+  font-size: 2.5rem;
 }
