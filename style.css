@@ -1,1 +1,69 @@
-/* qpdzjzqpo */
+body {
+    margin: 0px;
+}
+.bandeauHaut {
+    width: 100%;
+    height: 13vh;
+    background-color: #4E5D4E;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ajouter {
+    height: 3vh;
+    background-color: #FFF5E1;
+    border: 1px solid #4E5D4E;
+    border-radius: 30px;
+    font-weight: bold;
+    font-size: 1.3rem;
+    padding: 30px;
+    align-items: center;
+    display: flex;
+} 
+
+.titre2 {
+    border: 2px solid #4a2a0a;
+    background-color: #4a2a0a;
+    height: 5vh;
+    width: 20vh;
+    margin-top: 1vh;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.stockActuel {
+    width: 100%;
+    height: 3vh;
+    background-color: #FFF5E1;
+    display: flex;
+    justify-content: center;
+}
+
+.stock {
+    width: 100%;
+    height: 84vh;
+    background-color: #FFF5E1;
+    display: flex;
+    justify-content: center;
+}
+
+.titre1 {
+    font-size: 3.5rem;
+    color: white;
+    margin-left: 5vh;
+}
+
+.soft {
+    border-right: 2px solid black;
+    margin-top: 5vh!important;
+    font-size: 1.5rem!important;
+}
+
+.alcool {
+    margin-top: 5vh!important;
+    font-size: 1.5rem!important;
+}
