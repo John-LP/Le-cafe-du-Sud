@@ -82,6 +82,12 @@ h3 {
   border-radius: 30px;
 }
 
+.modal-body {
+  height: 100vh;
+  background-color: #4e5d4e;
+  color: white;
+}
+
 .col-md-7,
 .col-md-4,
 .col-md-3,
@@ -91,17 +97,26 @@ h3 {
   flex-direction: column !important;
 }
 
+.boutonValider {
+  width: 20vh;
+  height: 6vh;
+  background-color: #4a2a0a;
+  color: white;
+  border: 1px solid #4e5d4e;
+  border-radius: 30px;
+  font-size: 1.8rem;
+}
+
 .modal-body {
-  /* width: 80vw;
-  height: 80vh; */
+  padding: 0vh 10vh;
+  height: 70vh;
   background-color: #4e5d4e;
   display: flex;
   align-items: center;
-  color: white;
 }
 
 .l1 {
-  padding: 10vh;
+  padding: 9vh;
 }
 
 .l2,
@@ -129,6 +144,7 @@ h3 {
 }
 
 .inputModal {
+  text-align: center;
   height: 4vh;
   border: solid 1px;
   border-radius: 10px;
@@ -136,18 +152,17 @@ h3 {
 }
 .type,
 .selectDeco {
+  text-align: center;
   height: 4vh;
   border: solid 1px;
   border-radius: 10px;
   background-color: #fff5e1;
 }
 
-.boutonModifier,
 .boutonValider {
   color: #fff5e1;
-  margin-left: 15vh;
   height: 4vh;
-  width: 20vh;
+  width: 14vh;
   border: solid 1px #4a2a0a;
   border-radius: 10px;
   background-color: #4a2a0a;
@@ -173,14 +188,24 @@ h3 {
   font-size: 2.5rem;
 }
 
-.modal-dialogue {
-  margin-right: 71vw;
+.modal-content {
   margin-top: 8vh;
 }
 
 .modal-header {
-  display: flex;
-  flex-shrink: 0;
-  align-items: center !important;
+  display: flex !important;
   justify-content: center !important;
+}
+
+.row.l1,
+.row.l2 {
+  gap: 35px;
+}
+
+.row.l3 {
+  gap: 100px;
+}
+
+.type {
+  width: 7.3vw;
 }
