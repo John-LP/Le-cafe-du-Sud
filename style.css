@@ -9,6 +9,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  border-bottom: 5px solid #4a2a0a;
 }
 
 .stockActuel {
@@ -25,13 +26,15 @@ body {
   background-color: #fff5e1;
   display: flex;
   justify-content: center;
-  overflow: scroll;
+  overflow: auto;
 }
 
 .ajouter {
+  font-family: "Croissant One", cursive;
   height: 3vh;
+  color: #4a2a0a;
   background-color: #fff5e1;
-  border: 1px solid #4e5d4e;
+  border: 5px solid #4a2a0a;
   border-radius: 30px;
   font-weight: bold;
   font-size: 1.3rem;
@@ -40,27 +43,37 @@ body {
   display: flex;
 }
 
+.ajouter:hover {
+  border: solid 2px #4a2a0a;
+}
+
 .titre2 {
-  border: 2px solid #4a2a0a;
+  font-family: "Croissant One", cursive;
+  border: 5px solid #4e5d4e;
   background-color: #4a2a0a;
   height: 5vh;
-  width: 20vh;
-  margin-top: 1vh;
+  width: 30vh;
+  margin-top: 2.5vh;
   border-radius: 30px;
   display: flex;
   justify-content: center;
   align-items: center;
-  color: white;
+  color: #fff5e1;
+  font-size: 2.5rem;
 }
 
 .titre1 {
+  font-family: "Croissant One", cursive;
   font-size: 3.5rem;
   color: white;
   margin-left: 5vh;
 }
-
+.bordure,
+.bordure2 {
+  border-top: 3px solid #4a2a0a;
+}
 .bordure {
-  border-right: 2px solid black;
+  border-right: 3px solid #4a2a0a;
 }
 .soft {
   margin-top: 5vh !important;
@@ -72,11 +85,16 @@ body {
   font-size: 1.5rem !important;
 }
 
+.h1 {
+  color: #fff5e1;
+}
+
 h3 {
   margin-top: 7vh;
 }
 
 .inputModal {
+  width: 100%;
   border: 1px solid black;
   border: 1px solid #4e5d4e;
   border-radius: 30px;
@@ -97,16 +115,6 @@ h3 {
   flex-direction: column !important;
 }
 
-.boutonValider {
-  width: 20vh;
-  height: 6vh;
-  background-color: #4a2a0a;
-  color: white;
-  border: 1px solid #4e5d4e;
-  border-radius: 30px;
-  font-size: 1.8rem;
-}
-
 .modal-body {
   padding: 0vh 10vh;
   height: 70vh;
@@ -116,7 +124,7 @@ h3 {
 }
 
 .l1 {
-  padding: 9vh;
+  padding: 7.5vh;
 }
 
 .l2,
@@ -136,6 +144,11 @@ h3 {
 .col-md-6 {
   display: flex;
   flex-direction: column;
+}
+
+.container-fluid {
+  font-family: "Croissant One", cursive;
+  color: #fff5e1;
 }
 
 .col-md-6.ajoutStock {
@@ -160,12 +173,18 @@ h3 {
 }
 
 .boutonValider {
+  font-family: "Croissant One", cursive;
   color: #fff5e1;
   height: 4vh;
-  width: 14vh;
+  width: 100%;
   border: solid 1px #4a2a0a;
   border-radius: 10px;
   background-color: #4a2a0a;
+  font-size: 1.5rem;
+}
+
+.boutonValider:hover {
+  border: solid 1px #fff5e1;
 }
 
 .modifyStock {
@@ -193,6 +212,10 @@ h3 {
 }
 
 .modal-header {
+  font-family: "Croissant One", cursive;
+  color: #fff5e1;
+  border: 3px 3px 0px 3px solid #fff5e1 !important;
+  background-color: #4a2a0a;
   display: flex !important;
   justify-content: center !important;
 }
@@ -207,5 +230,21 @@ h3 {
 }
 
 .type {
-  width: 7.3vw;
+  width: 100%;
+}
+
+.modifyStock,
+.details,
+.updateButton,
+.deleteButton {
+  border: none;
+  background-color: #fff5e1;
+}
+
+.modifyStock:hover,
+.details:hover,
+.updateButton:hover,
+.deleteButton:hover {
+  border: solid 1px #4a2a0a;
+  border-radius: 10px;
 }
