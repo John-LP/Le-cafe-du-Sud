@@ -82,12 +82,6 @@ h3 {
   border-radius: 30px;
 }
 
-.modal-body {
-  height: 100vh;
-  background-color: #4e5d4e;
-  color: white;
-}
-
 .col-md-7,
 .col-md-4,
 .col-md-3,
@@ -97,22 +91,13 @@ h3 {
   flex-direction: column !important;
 }
 
-.boutonValider {
-  width: 20vh;
-  height: 6vh;
-  background-color: #4a2a0a;
-  color: white;
-  border: 1px solid #4e5d4e;
-  border-radius: 30px;
-  font-size: 1.8rem;
-}
-
 .modal-body {
-  width: 80vw;
-  height: 80vh;
+  /* width: 80vw;
+  height: 80vh; */
   background-color: #4e5d4e;
   display: flex;
   align-items: center;
+  color: white;
 }
 
 .l1 {
@@ -157,6 +142,7 @@ h3 {
   background-color: #fff5e1;
 }
 
+.boutonModifier,
 .boutonValider {
   color: #fff5e1;
   margin-left: 15vh;
@@ -195,15 +181,6 @@ h3 {
 .modal-header {
   display: flex;
   flex-shrink: 0;
-  align-items: center;
-  justify-content: center;
-}
-
-@media (min-width: 576px) {
-  .modal-dialog {
-    max-width: var(--bs-modal-width);
-    margin-right: 3% !important;
-    margin-left: 10% !important;
-    margin-top: 8vh !important;
-  }
+  align-items: center !important;
+  justify-content: center !important;
 }

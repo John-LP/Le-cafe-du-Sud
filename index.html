@@ -76,15 +76,15 @@
                                         name="vente"
                                         placeholder="Prix de vente HT">
                                 </div>
-                            </div>
-                            <div class="row l3">
-                                <div class="col-6-xl">Stock
+                                <div class="col-4-xl">Stock
                                     <input class="inputModal ajoutStock"
                                         type="number"
                                         name="stock"
                                         placeholder="Stock">
                                 </div>
-                                <div class="col-3-xl"><button type="button"
+                            </div>
+                            <div class="row l3">
+                                <div class="col-xl"><button type="button"
                                         data-bs-dismiss="modal"
                                         class="boutonValider">Valider</button></div>
                             </div>
@@ -94,6 +94,67 @@
             </div>
         </div>
 
+        <div class="modal fade" id="ajouterModal2" tabindex="-1"
+            aria-labelledby="ajouterModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="ajouterModalLabel">Modifier
+                            un produit</h5>
+
+                    </div>
+                    <div class="modal-body">
+                        <div class="container-fluid">
+                            <div class="row l1">
+                                <div class="col-7-xl">Nom du produit
+                                    <input class="inputModal nom" type="text"
+                                        name="produit"
+                                        placeholder="Nom du Produit">
+                                </div>
+                                <div class="col-3-xl">Type
+                                    <select class="type">
+                                        <option value="soft">Soft</option>
+                                        <option value="alcool">Boisson
+                                            alcoolisée</option>
+                                    </select>
+                                </div>
+                                <div class="col-2-xl">Degrés d'alcool
+                                    <input class="inputModal degres"
+                                        type="number"
+                                        name="degre"
+                                        placeholder="Degrés d'alcool">
+                                </div>
+                            </div>
+                            <div class="row l2">
+                                <div class="col-4-xl">Prix d'achat HT
+                                    <input class="inputModal achat"
+                                        type="number"
+                                        name="achat"
+                                        placeholder="Prix d'achat HT">
+                                </div>
+                                <div class="col-4-xl">Prix de vente HT
+                                    <input class="inputModal vente"
+                                        type="number"
+                                        name="vente"
+                                        placeholder="Prix de vente HT">
+                                </div>
+                                <div class="col-4-xl">Stock
+                                    <input class="inputModal ajoutStock"
+                                        type="number"
+                                        name="stock"
+                                        placeholder="Stock">
+                                </div>
+                            </div>
+                            <div class="row l3">
+                                <div class="col-xl"><button type="button"
+                                        data-bs-dismiss="modal"
+                                        class="boutonValider">Valider</button></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
         <script src="script.js"></script>
         <script
             src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
