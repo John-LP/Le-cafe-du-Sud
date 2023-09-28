@@ -167,6 +167,11 @@ h3 {
   background-color: #4a2a0a;
 }
 
+.modifyStock {
+  width: 5vw;
+  margin-left: 2vh;
+}
+
 .row {
   margin: 0px !important;
 }
